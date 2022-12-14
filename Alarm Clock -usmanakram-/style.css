@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #4a89f7;
+}
+
+.alarmIcon {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: wheat;
+  border-radius: 10px;
+  padding: 40px 20px;
+  width: 300px;
+}
+
+.clock-time-alignment {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.clock-time-alignment.disable {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.time-options {
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+
+.custom-select {
+  border: 2px solid #4a89f7;
+  border-radius: 5px;
+  background-color: white;
+  padding: 4px 5px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #4a89f7;
+  padding: 10px 20px;
+  color: white;
+  width: 250px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+button:hover {
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  background-color: #276be1;
+  padding: 10px 20px;
+  color: white;
+  width: 250px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: ease-in-out 0.1s;
+}
